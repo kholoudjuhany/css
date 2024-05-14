@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    gap: 1em;
+    height: 90px
+}
+
+#one {
+    background-color: white;
+    width: 2%;
+    padding: 25px;
+    text-align: center;
+}
+
+#two {
+    background-color: white;
+    width: 2%;
+    padding: 25px;
+    text-align: center;
+}
+
+#three {
+    background-color: white;
+    width: 2%;
+    padding: 25px;
+    text-align: center;
+}
+
+#four {
+    background-color: white;
+    width: 2%;
+    padding: 25px;
+    text-align: center;
+}

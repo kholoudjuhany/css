@@ -1,0 +1,60 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2, auto);
+    padding: 10px;
+    gap: 7px;
+    text-align: center;
+  }
+  .child1 {
+      color: white;
+      background-color: rgb(228, 228, 37);
+      padding: 17px;
+      font-size: 20px;
+      grid-column-start: 1;
+      grid-column-end: 6;
+      border-radius: 11px;
+  }
+  .child2 {
+      color: white;
+      background-color: rgb(230, 142, 40);
+      padding: 20px;
+      font-size: 20px;
+      grid-row-start: 2;
+      grid-row-end: 32;
+      border-radius: 11px;
+  }
+
+  .child3 {
+      color: white;
+      background-color: rgb(0, 255, 255);
+      padding: 20px;
+      font-size: 20px;
+      grid-column-start: 2;
+      grid-column-end: 6;
+      border-radius: 11px;
+    
+  }
+
+  .child4 {
+      color: white;
+      background-color: rgb(171, 171, 171);
+      padding: 20px;
+      font-size: 20px;
+      grid-column-start: 2;
+      grid-column-end: 6;
+      grid-row-start:3;
+      grid-row-end : 32;
+      border-radius: 11px;
+    
+  }
+
+  .child5 {
+      color: white;
+      background-color: rgb(0, 0, 0);
+      padding: 20px;
+      font-size: 20px;
+      grid-column-start: 1;
+      grid-column-end: 6;
+      border-radius: 11px;
+  }

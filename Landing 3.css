@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  spam {
     color: gray;
 }
@@ -55,3 +56,60 @@
 
 
 
+=======
+ spam {
+    color: gray;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 400px 222px;
+    background-color: rgb(114, 171, 227);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 700px;
+    
+}
+
+#pic {
+    margin-left: 55px;
+}
+
+.button1 {
+    color: rgb(114, 171, 227);
+    padding: 5px;
+}
+
+.white {
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+.button2 {
+    color: rgb(114, 171, 227);
+    padding: 5px;
+    
+}
+
+#size {
+    font-size: 11px;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+}
+
+.last {
+    color: white;
+}
+
+>>>>>>> 336ee612f9c39194cab23bebb728100470484706

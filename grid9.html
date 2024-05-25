@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+   .parent {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    gap: 1px;
+    justify-content: center;
+   }
+
+   .top {
+    background-color: rgb(244, 80, 80);
+    padding: 150px;
+    z-index: 3;
+    grid-area: 11/1/17/5;
+    opacity: 76%;
+
+   }
+
+   .mid {
+    background-color: rgb(98, 154, 98);
+    padding: 150px;
+    z-index: 2;
+    grid-area: 14/3/20/13;
+    opacity: 76%;
+   }
+
+
+   .btm {
+    background-color: rgb(102, 102, 244);
+    padding: 150px;
+    z-index: 1;
+    grid-area: 7/4/15/6;
+    opacity: 76%;
+   }
+    
+</style>
+
+
+</head>
+
+<body>
+    <div class="parent">
+    <div class="top">Top</div>
+    <div class="mid">Middle</div>
+    <div class="btm">Bottom</div>
+    
+    </div>
+   
+
+</body>
+</html>
